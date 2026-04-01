@@ -147,7 +147,7 @@ int main() {
                     printf("Digite a matricula do aluno: ");
                     scanf("%d", &mat);
                     printf("Digite o nome do aluno: ");
-                    scanf(" %[^\n]", nome); // Lê a string mesmo se tiver espaços
+                    scanf(" %[^\n]", nome);
                     matricula_aluno(t, mat, nome);
                 }
                 break;

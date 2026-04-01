@@ -20,9 +20,12 @@ void mostrarPessoa(Pessoa *p) {
     printf("\nDocumento: %d", p->documento);
     printf("\nIdade: %d anos\n", p->idade);
 }
-void atualizarIdade(Pessoa *p, int outraIdade) {
+void atualizarIdade(Pessoa *p) {
+      int outraIdade;
+    printf("Digite a nova idade: ");
+    scanf("%d", &outraIdade);
     p->idade = outraIdade;
-    printf("\nIdade atualizada");
+    printf("Idade Atualizada!\n");
 }
 void diferencaIdades(Pessoa lista[], int tamanho) {
     int maior = 0; 

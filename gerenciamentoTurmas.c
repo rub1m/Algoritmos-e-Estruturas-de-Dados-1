@@ -48,7 +48,7 @@ void matricula_aluno(Turma* turma, int mat, char* nome) {
     }
 }
 void lanca_notas(Turma* turma) {
-    printf("\n--- Lancando notas da turma %c ---\n", turma->id);
+    printf("\n--- Lançando notas da turma %c ---\n", turma->id);
     for (int i = 0; i < MAX_VAGAS; i++) {
         if (turma->alunos[i] != NULL) {
             printf("Aluno: %s (Mat: %d)\n", turma->alunos[i]->nome, turma->alunos[i]->mat);

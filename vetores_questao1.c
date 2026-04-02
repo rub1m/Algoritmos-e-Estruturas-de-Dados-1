@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h> 
 #include <locale.h>
-#include <stdio.h>
-#include <stdlib.h>
-
 int main() {
     int n;
     printf("Tamanho do vetor: ");

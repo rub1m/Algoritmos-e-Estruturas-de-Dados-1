@@ -10,12 +10,12 @@ int maior(int *a, int *b) {
 int main() {
   setlocale(LC_ALL,"Portuguese");
     int x, y, resultado;
-    printf("Digite o primeiro numero: ");
+    printf("Digite o primeiro número: ");
     scanf("%d", &x);
-    printf("Digite o segundo numero: ");
+    printf("Digite o segundo número: ");
     scanf("%d", &y); 
     resultado = maior(&x, &y);
     printf("\n--- Resultado ---\n");
-    printf("O maior valor entre %d e %d e: %d\n", x, y, resultado);
+    printf("O maior valor entre %d e %d é: %d\n", x, y, resultado);
     return 0;
 }

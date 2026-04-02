@@ -2,6 +2,7 @@
 #include <stdlib.h> 
 #include <locale.h>
 int main() {
+    setlocale(LC_ALL, "Portuguese");
     int n;
     printf("Tamanho do vetor: ");
     scanf("%d", &n);
